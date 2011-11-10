@@ -1,3 +1,8 @@
+/**         ---=== Cpus- symulator procesora ===---
+*
+*
+*/
+
 #include <QtGui/QApplication>
 #include "app.h"
 

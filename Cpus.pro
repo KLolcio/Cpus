@@ -13,9 +13,12 @@ TEMPLATE = app
 SOURCES += main.cpp\
         app.cpp
 
-HEADERS  += app.h
+HEADERS  += app.h \
+    include/Heders.h
 
 FORMS    += app.ui
 
 OTHER_FILES += \
     README
+
+QT += opengl
