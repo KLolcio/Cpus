@@ -1,7 +1,14 @@
+/** @author Lolcio
+  * Plik naglowkowy dolaczajacy wszystkie biblioteki zewnetrzne potrzebne w projekcie.
+  * Pozwala np. nie pisac w kazdej klasie: #include <string>.
+  * Plik NIE powinien dolaczac plikow naglowkowych klas projektu!
+  */
+
 #ifndef HEDERS_H
 #define HEDERS_H
 
-#include "QtOpenGL"
+#include <QSplashScreen>
+#include <QGLWidget>
 
 
 #endif // HEDERS_H

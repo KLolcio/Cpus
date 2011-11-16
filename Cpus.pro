@@ -11,10 +11,14 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        app.cpp
+        app.cpp \
+    app_tool.cpp \
+    PrintSurf.cpp
 
 HEADERS  += app.h \
-    include/Heders.h
+    include/Heders.h \
+    include/Toolbar.h \
+    include/PrintSurf.h
 
 FORMS    += app.ui
 
@@ -22,3 +26,6 @@ OTHER_FILES += \
     README
 
 QT += opengl
+
+RESOURCES += \
+    resources.qrc

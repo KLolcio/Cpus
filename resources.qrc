@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file>data/pic/splash.jpg</file>
+        <file>data/pic/icon.png</file>
+        <file>data/pic/exit.png</file>
+    </qresource>
+</RCC>
