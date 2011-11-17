@@ -10,7 +10,7 @@
 #include "include/PrintSurf.h"
 
 namespace Ui {
-    class App;
+    class App;  
 }
 
 class App : public QMainWindow , private ToolBar
