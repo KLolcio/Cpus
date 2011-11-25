@@ -16,16 +16,19 @@ int main(int argc, char *argv[])
       * aplikacji. Po zaladowaniu wszystkich informacji z plikow zewnetrznych zostaje zwolniona pamiec i pokazane
       * glowne okno aplikacji.
       */
-    QSplashScreen* splash = new QSplashScreen( (QPixmap)":/data/pic/splash.jpg" );
+    QPixmap map= (QPixmap)":/data/pic/splash.jpg";
+    QSplashScreen* splash = new QSplashScreen( map );
+    splash->show();
 
     App* application = new App();
+    application->Load(); //Wczytanie danych z plikow zewnetrznych
 
-    splash->show();
-    sleep(1); //opoznienie programu aby mozna bylo zobaczyc splash
+    sleep( 0 ); //opoznienie programu aby mozna bylo zobaczyc splash
     splash->hide();
-    delete splash;
 
     application->show();
 
+    delete splash;
     return a.exec();
+
 }

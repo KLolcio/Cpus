@@ -9,6 +9,20 @@
 
 #include <QSplashScreen>
 #include <QGLWidget>
+#include <QLineEdit>
+#include <QComboBox>
+#include <QVector>
+
+
+//Naglowki dla maszyny wirtualnej LUA
+#include <luabind/lua_include.hpp>
+#include <luabind/luabind.hpp>
+
+extern "C" {
+  #include <lua5.1/lualib.h>
+}
+
+
 
 
 #endif // HEDERS_H

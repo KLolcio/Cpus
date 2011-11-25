@@ -8,15 +8,15 @@
 #define PRINTSURF_H
 #include "Heders.h"
 
-class PrintSurf: public QGLWidget
+class Renderer: public QGLWidget
 {
     Q_OBJECT
 
 public:
-    PrintSurf( QWidget *parent = 0 );
+    Renderer( QWidget *parent = 0 );
 
     // Czyszczenie pamieci ( do implementacji ! )
-    ~PrintSurf();
+    ~Renderer();
 
 protected:
     void initializeGL(); //Inicjacja OpenGL

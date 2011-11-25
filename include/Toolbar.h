@@ -16,6 +16,15 @@ protected:
         QAction* m_start;
         QAction* m_pause;
         QAction* m_stop;
+        QAction* m_about;
+        QAction* m_help;
+        QAction* m_add;
+        QAction* m_remove;
+
+        QComboBox* m_command;
+
+        QLineEdit* m_param_1;
+        QLineEdit* m_param_2;
 
         /* Metoda zostaje zaimplementowana  w klasie pochodnej App
            Tworzy akcje dla wskaznikow QAction, i dodaje je do toolbara */

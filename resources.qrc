@@ -2,6 +2,14 @@
     <qresource prefix="/">
         <file>data/pic/splash.jpg</file>
         <file>data/pic/icon.png</file>
-        <file>data/pic/exit.png</file>
+        <file>data/pic/quit.png</file>
+        <file>data/pic/run.png</file>
+        <file>data/pic/pause.png</file>
+        <file>data/pic/reload.png</file>
+        <file>data/pic/about.png</file>
+        <file>data/pic/add.png</file>
+        <file>data/pic/help.png</file>
+        <file>data/pic/remove.png</file>
+        <file>data/pic/stop.png</file>
     </qresource>
 </RCC>

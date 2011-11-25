@@ -1,10 +1,10 @@
-#include "include/PrintSurf.h"
+#include "include/Renderer.h"
 
-PrintSurf::PrintSurf(QWidget *parent){
+Renderer::Renderer(QWidget *parent){
     // do implementacji
 }
 
-void PrintSurf::initializeGL(){
+void Renderer::initializeGL(){
     // do implementacji
 
     glEnable(GL_DEPTH_TEST);
@@ -19,7 +19,7 @@ void PrintSurf::initializeGL(){
 }
 
 
-void PrintSurf::paintGL(){
+void Renderer::paintGL(){
     // Rysowanie, do implementacji
     glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
         glLoadIdentity();
@@ -27,7 +27,7 @@ void PrintSurf::paintGL(){
 
 }
 
-PrintSurf::~PrintSurf(){
+Renderer::~Renderer(){
     // do implemenatcji
 
 }
