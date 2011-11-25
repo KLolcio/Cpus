@@ -11,7 +11,7 @@
 #include "include/LuaData.h"
 
 namespace Ui {
-    class App;
+    class App;  
 }
 
 class App : public QMainWindow , private ToolBar,public LuaData
